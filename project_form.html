@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/project_form.css">
+</head>
+
+<body>
+    <header class="foot f-teal f-center head-margin">
+
+        <div id="navigation">
+            <button id="home" onclick="document.location='index.html'">Index</button>
+            <button id="home" onclick="document.location='project.html'">Homepage</button>
+            <button id="home" onclick="document.location='project_form.html'">Form Page</button>
+            <button id="home" onclick="document.location='project_about.html'">About Us</button>
+            <button id="home" onclick="document.location='project_content.html'">Content</button>
+            <button id="home" onclick="document.location='project_template.html'">Template</button><br>
+        </div>
+        <button onclick="document.getElementById('login-form').style.display='block'" class="mybutton green large">Click
+            to preview Login</button>
+    </header>
+
+    <div class="container">
+
+        <div id="login-form" class="mymodal">
+            <div class="modal card animate" style="max-width:600px">
+
+                <div class="center"><br>
+                    <span onclick="document.getElementById('login-form').style.display='none'"
+                        class="mybutton xlarge trans upright" title="Close Modal">×</span>
+                </div>
+
+
+                <form id="email_form" class="container" action="https://www.w3schools.com/action_page.php">
+                    <div class="mysection">
+
+                        <label><b>Username</b></label>
+                        <input class="myinput myborder bottom-margin" type="text" id="myname"
+                            placeholder="Enter Username" name="myname"><br>
+
+                        <label><b>Password</b></label>
+                        <input class="myinput myborder bottom-margin" type="text" id="psw" placeholder="Enter Password"
+                            name="psw"><br>
+
+                        <label><b>Email</b></label>
+                        <input class="myinput myborder bottom-margin" type="text" id="email" placeholder="Enter Email"
+                            name="email"><br>
+
+                        <label><b>Confirm Email</b></label>
+                        <input class="myinput myborder bottom-margin" type="text" id="email_confirm"
+                            placeholder="Confirm Email" name="email_confirm"><br>
+
+                        <button class="mybutton myblock green mysection mypadding" type="submit">Login</button>
+                        <input class="mycheck top-margin" type="checkbox" checked="checked"> Remember me
+
+                    </div>
+                </form>
+
+                <div class="container top-border mypadding-16 lgrey">
+                    <button onclick="document.getElementById('login-form').style.display='none'" type="button"
+                        class="mybutton c-red">Cancel</button>
+                    <span class="f-right mypadding s-hide"><a href="#">Forgot password?</a></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot f-teal f-center foot-margin">
+        <p>Images from Unsplash</p>
+        <p><b><i>Created by Anthony Ruthruff Summer 2023</i></b></p>
+
+    </footer>
+
+    <script src="javascript/jquery-1.11.0.min.js"></script>
+    <script src="javascript/jquery.validate.js"></script>
+    <script src="javascript/additional-methods.js"></script>
+    <script src="javascript/project_form.js"></script>
+
+
+</body>
+
+</html>

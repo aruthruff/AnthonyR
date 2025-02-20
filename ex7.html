@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 7</title>
+    <link rel="stylesheet" href="./css/ex7.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="" href="images/favicon.ico">
+    <!--SPECIAL NOTE - this won't actually record anything,
+        it's a non-working demo-->
+</head>
+
+<body>
+    <div id="page">
+
+        <div id="container" onclick="clickFunction()">
+            <div id="home">
+                <a href="">
+                    <img src="images/house_logo.jpg" alt="Avatar"></a>
+            </div>
+        </div>
+        <h2 id="yourNote">Lets go home</h2>
+
+        <form action="index.html">
+
+            <label for="actionInput" style="text-align: center;">TYPE HERE!<BR> ALSO CLICK RED BUTTON!</label>
+
+            <input type="text" id="actionInput" onkeydown="myFunction()" value="Type then press enter to see" />
+
+            <h3 id="here"></h3>
+
+            <div id="buttons">
+                <a data-state="on" href="">record</a>
+            </div>
+
+        </form>
+
+
+    </div>
+    
+
+    <script src="./javascript/assg7.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10</title>
+    <link rel="stylesheet" href="css/ex10.css">
+
+</head>
+
+<body>
+    <section>
+        <h1>Please join our email list</h1>
+        <h4>* denotes required field</h4>
+        <form id="email_form" name="email_form" action="ex10_join.html" method="get">
+
+
+            <label for="email">Email Address:* <span>(required, at least 2 characters)</span></label>
+            <input type="email" id="email" name="email" minlength="2"><br>
+
+            <label for="email_confirm">Re-enter Email:*</label>
+            <input type="email" id="email_confirm" name="email_confirm"><br>
+
+            <label for="curl">URL <span>(optional)</span></label>
+            <input id="curl" type="url" name="url"><br>
+
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name"><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"><br>
+
+            <label for="zip">5-Digit Zip Code:*</label>
+            <input type="text" id="zip" name="zip"><br>
+
+            <label>&nbsp;</label>
+            <input type="submit" id="join" name="join" value="Join our List">
+            <input type="reset" id="reset" name="reset" value="Reset"><br>
+
+        </form>
+
+        <button id="home" onclick="document.location='index.html'">Homepage</button>
+
+    </section>
+    <script src="javascript/jquery-1.11.0.min.js"></script>
+    <script src="javascript/jquery.validate.js"></script>
+    <script src="javascript/additional-methods.js"></script>
+    <script src="javascript/assg10.js"></script>
+
+
+</body>
+
+</html>

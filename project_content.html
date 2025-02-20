@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Content</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/project_form.css">
+
+
+</head>
+
+<body>
+    <header class="foot f-teal f-center head-margin">
+        <div id="navigation">
+            <button id="home" onclick="document.location='index.html'">Index</button>
+            <button id="home" onclick="document.location='project.html'">Homepage</button>
+            <button id="home" onclick="document.location='project_form.html'">Form Page</button>
+            <button id="home" onclick="document.location='project_about.html'">About Us</button>
+            <button id="home" onclick="document.location='project_content.html'">Content</button>
+            <button id="home" onclick="document.location='project_template.html'">Template</button><br>
+        </div>
+
+
+    </header>
+
+    <div id="page">
+
+        <h1 id="header"></h1>
+
+        <h2>Click any item to remove<span id="counter"></span></h2>
+
+        <ul>
+            <li id="" class="hot">Click item</li>
+            <li id="two" class="hot">Click again below to delete </li>
+            <li id="three" class="hot">Click "new Item" to add</li>
+            <li id="four">Example</li>
+        </ul>
+
+        <div id="addItem">
+            <button href="#" id="showMe">new item</button>
+        </div>
+
+        <form id="addItemForm">
+            <input type="text" id="decribeMe" placeholder="Add description" />
+            <input type="submit" id="add" value="add" />
+        </form>
+
+        <div class="third" id="loc">We are trying to find your location.</div>
+    </div>
+
+    <footer class="foot f-teal f-center foot-margin">
+
+        <p>Images from Unsplash</p>
+        <p><b><i>Created by Anthony Ruthruff Summer 2023</i></b></p>
+
+    </footer>
+    <script src="javascript/modernizr.2.7.1.js"></script>
+    <script src="javascript/geolocation.js"></script>
+    <script src="javascript/jquery-1.11.0.js"></script>
+    <script src="javascript/project_content.js"></script>
+
+
+</body>
+
+</html>
