@@ -1,0 +1,50 @@
+body {
+    background-color: skyblue;
+
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.text {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+h1 {
+    font-style: italic;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: auto;
+    background: #ccc;
+    padding: 20px;
+
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+
+    nav,
+    article {
+        width: 100%;
+    }
+}

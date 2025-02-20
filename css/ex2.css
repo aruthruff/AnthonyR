@@ -1,0 +1,20 @@
+body {
+    background: url(../images/creed2.jpg);
+}
+
+#info {
+    background-color: lightblue;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 7%;
+    font-family: cursive;
+    
+}
+
+
+h1, h2 {
+    text-align: center;
+    
+     
+}
