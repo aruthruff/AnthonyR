@@ -68,8 +68,6 @@ createAttribute()
 //Call Function
 locationButton()
 
-//Call Function
-myFunction()
 
 
 
