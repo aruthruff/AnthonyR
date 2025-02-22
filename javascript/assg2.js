@@ -14,29 +14,33 @@ var greeting;
 
 
 if (hourNow > 18) {
-    greeting = 'Good evening!';
+    greeting = 'Good Evening!';
 } else if (hourNow > 11) {
-    greeting = 'Good afternoon!';
+    greeting = 'Good Afternoon!';
 } else if (hourNow > 0) {
-    greeting = 'Good morning!';
+    greeting = 'Good Morning!';
 } else {
     greeting = 'Welcome!';
 }
 
 var element = document.getElementById('h2')
 
-document.write('<h1>' + greeting + '</h1>');
+var info = document.getElementById("info");
+info.style.backgroundColor = "red";
 
-function myFunction() { document.write("<h2> Welcome </h2>") 
-    document.getElementById("h2").style.color = "blue";
+function myFunction() { 
+    var info = document.getElementById("intro").innerHTML = "<h1> Welcome </h1>"+ '<h1>' + greeting + '</h1>';
+    var intro = document.getElementById("home").style.position = 'absolute' ;
+  
 }
+
+    
+    
 
 myFunction()
 
 
 
-var info = document.getElementById("info");
-info.style.backgroundColor = "red";
 
 
 
