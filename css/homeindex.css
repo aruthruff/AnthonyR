@@ -3,16 +3,15 @@ body {
 
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: center;
 }
 
 .text {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
-
 }
-
 
 h1 {
     font-style: italic;
@@ -24,7 +23,6 @@ nav {
     height: auto;
     background: #ccc;
     padding: 20px;
-
 }
 
 article {
@@ -32,19 +30,19 @@ article {
     padding: 20px;
     width: 50%;
     height: auto;
-    
-
 }
 
+ul {
+    display: inline-grid;
 
-* {
-    box-sizing: border-box;
+
 }
-
 @media screen and (max-width: 800px) {
 
     nav,
     article {
         width: 100%;
+        text-align: center;
     }
 }
+
