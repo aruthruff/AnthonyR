@@ -46,6 +46,7 @@ button {
     article {
         width: 100%;
         text-align: center;
+        max-width: -webkit-fill-available;
     }
 }
 
