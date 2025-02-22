@@ -11,13 +11,19 @@ body {
 }
 
 section {
-    margin: 10px auto 10px auto;
-    width: 800px;
-    padding: 10px;
-    background-image: url(../images/grade.jpg);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    display: flex;
 
+    margin: 10px auto 10px auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #cccccc4a;
+    
+    max-width: -webkit-fill-available;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
@@ -33,10 +39,10 @@ input#score {
     font-family: Courier, mono-space;
     padding: 5px;
     border: 2px solid #ccc;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
 
 }
+
 
 input#score:focus {
     border-color: #333;
@@ -54,11 +60,10 @@ button#submit {
     font-size: 16px;
     border: 0 none;
     cursor: pointer;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     width: 130px;
     position: relative;
-    left: 40%;
+    
 }
 
 input#reset {
@@ -68,7 +73,6 @@ input#reset {
     font-size: 16px;
     border: 0 none;
     cursor: pointer;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     width: 130px;
 }
@@ -80,7 +84,7 @@ input#reset:hover {
 
 #home {
     position: relative;
-    left: 44%;
+    
 }
 
 h3 {
