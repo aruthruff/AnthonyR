@@ -4,35 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10.0, user-scalable=yes">
+    <link rel="icon" type="" href="images/favicon.ico">
     <link rel=stylesheet href="css/homeindex.css">
     <title>Tonys Space</title>
 </head>
 
-<body>
-    <div class="text">
-        <h1>Anthony Ruthruff</h1>
-        <h3>Homepage</h3>
-        <nav>
-            <h2>School Assignments</h2>
-            <ul>
-                <button onclick="document.location='ex2.html'">Assignment 1</button>
-                <button onclick="document.location='ex3.html'">Assignment 2</button>
-                <button onclick="document.location='ex4.html'">Assignment 3</button>
-                <button onclick="document.location='ex5.html'">Assignment 4</button>
-                <button onclick="document.location='ex6.html'">Assignment 5</button>
-                <button onclick="document.location='ex7.html'">Assignment 6</button>
-                <button onclick="document.location='ex8.html'">Assignment 7</button>
-                <button onclick="document.location='ex9.html'">Assignment 8</button>
-                <button onclick="document.location='ex10.html'">Assignment 9</button>
-                <button onclick="document.location='project.html'">Project</button>
-               <button onclick="document.location='youtube.html'">Youtube</button>
-            </ul>
-        </nav>
+<body id="bodyID">
+    
+    <div id="bodyID">
+        <div class="text">
+            <h1>Anthony Ruthruff</h1>
+            <h3>Homepage</h3>
+        </div>
+
+        <div id="loc"></div>
+        <div id="buttons">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">My School Projects</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <a href="project.html">LCC Project</a>
+                    <a href="ex2.html">Assignment 1</a>
+                    <a href="ex3.html">Assignment 2</a>
+                    <a href="ex4.html">Assignment 3</a>
+                    <a href="ex5.html">Assignment 4</a>
+                    <a href="ex6.html">Assignment 5</a>
+                    <a href="ex7.html">Assignment 6</a>
+                    <a href="ex8.html">Assignment 7</a>
+                    <a href="ex9.html">Assignment 8</a>
+                    <a href="ex10.html">Assignment 9</a>
+                </div>
+            </div>
+
+            <button id="colorButton">Dark/Light Mode</button>
+            <button id="messageButton">Click for Time</button>
+            <button id="locButton">Show/Hide Location</button>
+            <button onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My YouTube
+                Channel</button>
+        </div>
+
         <article>
             <p>Hello! My name is Tony Ruthruff.
                 I'm currenly enrolled in my final semester here at LCC to obtain an Associates in Computer Programming.
-                I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#, etc; and I'm looking forward to learning as much as I can
+                I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#, etc; and
+                I'm looking forward to learning as much as I can
                 about
                 Web Developement!
                 I also thoroughly enjoy auto mechanics.
@@ -41,6 +57,12 @@
             </p>
         </article>
     </div>
+
+    <script src="javascript/youtube.js"></script>
+    <script src="javascript/modernizr.2.7.1.js"></script>
+    <script src="javascript/geolocation.js"></script>
+
+
 </body>
 
 </html>
