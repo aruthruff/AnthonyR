@@ -1,6 +1,20 @@
-body {
+body{
     background-color: skyblue;
+}
+#bodyID {
+    
+    display: flex;
 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorToggle {
+    background-color: #000000f0;
+    color: white;
 }
 
 h1,
@@ -36,9 +50,58 @@ ul {
     display: inline-grid;
 }
 
+#loc {
+    display: none;
+}
+
 button {
     padding: 5px;
     margin: 5px;
+}
+
+.dropbtn, button {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
 }
 @media screen and (max-width: 800px) {
     
@@ -48,5 +111,18 @@ button {
         text-align: center;
         max-width: -webkit-fill-available;
     }
+    .dropdown,
+    button
+    {
+        width: -webkit-fill-available;
+    }
+    #buttons{
+        display: inline-grid;
+        justify-content: center;
+    }
+    #bodyID{
+        display: grid;
+    }
+
 }
 
