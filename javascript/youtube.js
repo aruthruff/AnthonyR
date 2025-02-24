@@ -3,10 +3,12 @@
 //Button to toggle background color
 function backgroundColorButton() {
   const button = document.getElementById("colorButton");
-  const x = document.getElementById("bodyID");
-
+  var x = document.getElementById("bodyID");
+  var y = document.body;
+  
   button.addEventListener("click", () => {
-    x.classList.toggle("colorToggle");
+    
+    y.classList.toggle("colorToggle");
   })
 }
 
@@ -18,6 +20,7 @@ function createAttribute() {
   const changeBodyColor = document.createAttribute("class");
   changeBodyColor.value = "bodyDefaultColor";
   document.getElementById("bodyID").setAttributeNode(changeBodyColor);
+  
 }
 
 function timeButton() {
