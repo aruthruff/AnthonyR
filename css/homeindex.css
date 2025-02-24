@@ -1,21 +1,71 @@
-body{
+body {
     background-color: skyblue;
-}
-#bodyID {
-    
-    display: flex;
 
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#bodyID {
+
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
 }
 
+
 .colorToggle {
     background-color: #000000f0;
     color: white;
+    #header,
+    .footer{
+        background-color: #383c376e;
+    }
 }
+
+
+#header {
+    background-color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+#side {
+    background-color: white;
+    display: flex;
+
+    flex-direction: row;
+    width: -webkit-fill-available;
+}
+
+.column {
+    padding: 10px;
+
+}
+
+
+.column.side {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
 
 h1,
 h3 {
@@ -44,6 +94,7 @@ article {
     padding: 20px;
     width: 50%;
     height: auto;
+
 }
 
 ul {
@@ -57,9 +108,11 @@ ul {
 button {
     padding: 5px;
     margin: 5px;
+
 }
 
-.dropbtn, button {
+.dropbtn,
+button {
     background-color: #3498DB;
     color: white;
     padding: 16px;
@@ -68,9 +121,11 @@ button {
     cursor: pointer;
 }
 
+button:hover,
 .dropbtn:hover,
 .dropbtn:focus {
     background-color: #2980B9;
+
 }
 
 .dropdown {
@@ -103,26 +158,28 @@ button {
 .show {
     display: block;
 }
-@media screen and (max-width: 800px) {
-    
+
+@media screen and (max-width: 890px) {
+
     nav,
     article {
         width: 100%;
         text-align: center;
         max-width: -webkit-fill-available;
     }
+
     .dropdown,
-    button
-    {
+    button {
         width: -webkit-fill-available;
     }
-    #buttons{
+
+    #buttons {
         display: inline-grid;
         justify-content: center;
     }
-    #bodyID{
+
+    #bodyID {
         display: grid;
     }
 
 }
-
