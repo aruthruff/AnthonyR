@@ -189,5 +189,9 @@ button:hover,
     #bodyID {
         display: grid;
     }
+
+     #center{
+        display: none;
+    }
     
 }
