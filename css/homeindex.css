@@ -16,6 +16,10 @@ body {
     align-items: center;
 }
 
+#center {
+    background-color: skyblue;
+    height: 900px;
+}
 
 .colorToggle {
     background-color: #000000f0;
@@ -24,6 +28,10 @@ body {
     .footer{
         background-color: #383c376e;
     }
+    #center {
+        background-color: #000000f0;
+    }
+
 }
 
 
@@ -181,5 +189,5 @@ button:hover,
     #bodyID {
         display: grid;
     }
-
+    
 }
