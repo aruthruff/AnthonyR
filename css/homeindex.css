@@ -250,7 +250,7 @@ button:hover,
 @media screen and (max-width: 425px) {
     #LTop,
     #Lmiddle,
-    Rmiddle,
+    #Rmiddle,
     #RTop {
         font-size: 40px;
         
