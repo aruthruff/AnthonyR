@@ -31,7 +31,7 @@ body {
     color: black;
     font-size: xxx-large;
     text-align: center;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 
@@ -43,7 +43,7 @@ body {
     color: white;
     font-size: xxx-large;
     text-align: center;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 #RTop {
@@ -55,7 +55,7 @@ body {
     color: black;
     font-size: xxx-large;
     text-align: center;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 #LTop {
@@ -65,7 +65,7 @@ body {
     color: white;
     font-size: xxx-large;
     text-align: center;
-    font-family: cursive;
+    font-family: fantasy;
 
 }
 
@@ -245,4 +245,14 @@ button:hover,
 
    
 
+}
+
+@media screen and (max-width: 425px) {
+    #LTop,
+    #Lmiddle,
+    Rmiddle,
+    #RTop {
+        font-size: 40px;
+        
+    }
 }
