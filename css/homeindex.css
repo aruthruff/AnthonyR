@@ -242,7 +242,14 @@ button:hover,
     #bodyID {
         display: grid;
     }
-
+    
+    #LTop,
+    #Lmiddle,
+    #Rmiddle,
+    #RTop {
+        font-size: 9vw;
+        
+    }
    
 
 }
