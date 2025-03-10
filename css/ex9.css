@@ -3,6 +3,10 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+*{
+    max-width: -webkit-fill-available;
+    text-align: -webkit-center;
+}
 body {
     background-image: url(../images/gamingpc1\ \(1\).jpg);
     color: #666;
@@ -124,7 +128,6 @@ input[type=submit] {
     display: inline-block;
     width: auto;
     clear: left;
-    float: right;
     padding: 0.3em 0.5em 0.3em 0.5em;
     margin: 0.5em 0 0 0;
 }
@@ -233,7 +236,7 @@ table.ng-scope th:nth-child(2) {
 }
 
 #title {
-    position: relative;
+    
     left: 200px;
     background-color: #000;
     color: white;
@@ -241,4 +244,10 @@ table.ng-scope th:nth-child(2) {
     border-style: solid;
     width: 200px;
 }
+
+@media only screen and (max-width: 500px) {
+    p{
+        display: none;
+    }
+  }
    
