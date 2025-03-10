@@ -11,8 +11,7 @@ section {
 
 body {
     font-family: Georgia, serif;
-    margin: 0 auto;
-    padding: 0;
+  
     background-color: rgba(151, 181, 211, .5);
 }
 
@@ -32,6 +31,7 @@ h4 {
 section {
     margin: 10px auto 10px auto;
     width: 600px;
+    max-width: 100%;
     padding: 10px;
     background-color: rgba(150, 210, 150, .5);
     -webkit-border-radius: 10px;
