@@ -11,10 +11,6 @@ body {
   margin: 0 auto 0 auto;
 }
 
-#home{
-  max-width: min-content;
-  justify-self: center;
-}
 
 h1 {
   font-weight: normal;
@@ -239,6 +235,12 @@ img {
       background-color: #403c3b;
       max-width: min-content;
   }
+
+  #home{
+  max-width: min-content;
+  justify-self: center;
+  }
+
 
   #page {
       max-width: 480px;
