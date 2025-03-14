@@ -25,11 +25,10 @@ if (hourNow > 18) {
 
 var element = document.getElementById('h2')
 
-var info = document.getElementById("info");
-info.style.backgroundColor = "red";
+
 
 function myFunction() { 
-    var info = document.getElementById("intro").innerHTML = "<h1> Welcome </h1>"+ '<h1>' + greeting + '</h1>';
+    var info = document.getElementById("intro").innerHTML ='<h1>' + greeting + '</h1>';
     var intro = document.getElementById("home").style.position = 'absolute' ;
   
 }
