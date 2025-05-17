@@ -7,25 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10.0, user-scalable=yes">
     <link rel="icon" type="" href="images/favicon.ico">
     <link rel=stylesheet href="css/homeindex.css">
-
     <title>Tonys Space</title>
 </head>
 
 <body>
-
-
-
     <div id="header">
-        <div class="text">
-            <div id="intro">
-
-            </div>
+        <div id="text">
+            <div id="intro"> </div>
             <h3>Welcome to the Homepage for</h3>
             <h1>Anthony Ruthruff</h1>
         </div>
     </div>
     <div class="row">
-
         <div id="loc"></div>
         <div id="bodyID">
             <div id="buttons">
@@ -45,7 +38,6 @@
                         <a href="ex10.html">Assignment 9</a>
                         <a href="youtube.html">Youtube Page</a>
                     </div>
-
                 </div>
                 <button id="colorButton">Dark/Light Mode</button>
                 <button id="messageButton">Click for Time</button>
@@ -53,45 +45,65 @@
                 <button onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My YouTube
                     Channel</button>
             </div>
-
             <article>
-                
                 <hr>
-           
-                <p> Greetings, my name is Anthony Ruthruff.
+                <p>
+                    Greetings, my name is Anthony Ruthruff.
                     This page is intended as a display of my web development potential.
-                    I’m a recent graduate of Lansing Community College. I’ve graduated with a cumulative GPA of 3.9 with an associate’s in business for Computer Programming.
-                    I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#, etc.
-                    
-                
-                    
+                    I’m a recent graduate of Lansing Community College. I’ve graduated with a cumulative GPA of 3.9 with
+                    an associate’s in business for Computer Programming.
+                    I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#, etc;
                 </p>
                 <hr>
             </article>
         </div>
+    </div>
+    <div id="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/htmlCSS.png" style="width:100%">
+            <div class="text">HTML / CSS</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/javascript.png" style="width:100%">
+            <div class="text">Javascript</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/.net.png" style="width:100%">
+            <div class="text">.net Framework</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/pcBuilding.png" style="width:100%">
+            <div class="text">PC Building</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
 
     </div>
+
     <div id="center">
 
-        <div id="LTop">.net Framework</div>
-        <div id="RTop">PC Building</div>
-
     </div>
-    <div id="center">
-        <div id="Lmiddle">HMTL / CSS</div>
-        <div id="Rmiddle">Javascript</div>
-
-    </div>
-
-
-
-
     <div class="footer">
         Email me at <a href="mailto:ruthrua1@.lcc.edu">ruthrua1@lcc.edu.</a>
         <br><br>Call me at 517-202-6247
     </div>
     <script src="javascript/assg2.js"></script>
     <script src="javascript/youtube.js"></script>
+    <script src="javascript/slideshow.js"></script>
     <script src="javascript/modernizr.2.7.1.js"></script>
     <script src="javascript/geolocation.js"></script>
 </body>
