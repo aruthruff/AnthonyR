@@ -29,6 +29,18 @@
    #slideshow-container{
     max-width: 100%;
    }
+
+    #image-container{
+    max-width: 100%;
+   }
+
+   .image-box{
+    max-width: 100%;
+   }
+
+   img{
+    max-width: 100%;
+   }
     
 }
 
