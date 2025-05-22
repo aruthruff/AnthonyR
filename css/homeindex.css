@@ -42,6 +42,10 @@ body {
     border-radius: 10px;
 }
 
+#image-text{
+    text-align: center;
+}
+
 
 #center {
     display: flex;
@@ -148,12 +152,14 @@ body {
 
 
 .footer {
+    max-width: 100%;
+    width: -webkit-fill-available;
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
     bottom: 0;
     position: fixed;
-    width: -webkit-fill-available;
+    
 }
 
 
