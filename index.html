@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,43 +9,51 @@
     <link rel=stylesheet href="css/homeindex.css">
     <link rel=stylesheet href="css/slideshow.css">
     <link rel=stylesheet href="css/responsive.css">
+    <link rel=stylesheet href="css/topnav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tonys Space</title>
 </head>
+
 <body>
-    <div id="header">
-        <div id="text">
-            <div id="intro"> </div>
-            <h3>Welcome to the Homepage for</h3>
-            <h1>Anthony Ruthruff</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div id="loc"></div>
-        <div id="bodyID">
-            <div id="buttons">
-                <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">My School Projects</button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="https://youtu.be/9jl5BY4RihQ">Password Manager</a>
-                        <a href="project.html">LCC Project</a>
-                        <a href="ex2.html">Assignment 1</a>
-                        <a href="ex3.html">Assignment 2</a>
-                        <a href="ex4.html">Assignment 3</a>
-                        <a href="ex5.html">Assignment 4</a>
-                        <a href="ex6.html">Assignment 5</a>
-                        <a href="ex7.html">Assignment 6</a>
-                        <a href="ex8.html">Assignment 7</a>
-                        <a href="ex9.html">Assignment 8</a>
-                        <a href="ex10.html">Assignment 9</a>
-                        <a href="youtube.html">Youtube Page</a>
-                    </div>
+    <div id="loc"></div>
+    <div id="bodyID">
+        <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+                <a onclick="myFunction()" class="dropbtn" id="active">My School Projects</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://youtu.be/9jl5BY4RihQ">Password Manager</a>
+                    <a href="project.html">LCC Project</a>
+                    <a href="ex2.html">Assignment 1</a>
+                    <a href="ex3.html">Assignment 2</a>
+                    <a href="ex4.html">Assignment 3</a>
+                    <a href="ex5.html">Assignment 4</a>
+                    <a href="ex6.html">Assignment 5</a>
+                    <a href="ex7.html">Assignment 6</a>
+                    <a href="ex8.html">Assignment 7</a>
+                    <a href="ex9.html">Assignment 8</a>
+                    <a href="ex10.html">Assignment 9</a>
+                    <a href="youtube.html">Youtube Page</a>
                 </div>
-                <button id="colorButton">Dark/Light Mode</button>
-                <button id="messageButton">Click for Time</button>
-                <button id="locButton">Show/Hide Location</button>
-                <button onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My YouTube
-                    Channel</button>
             </div>
+            <a id="messageButton">Click for Time</a>
+            <a id="locButton">Show/Hide Location</a>
+            <a id="youtubeButton" onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My YouTube
+                Channel</a>
+            <a id="colorButton">Dark/Light Mode</a>
+            <a href="javascript:void(0);" class="icon" onclick="topNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+
+        </div>
+        <div id="header">
+            <div id="text">
+                <div id="intro"> </div>
+                <h3>Welcome to the Homepage for</h3>
+                <h1>Anthony Ruthruff</h1>
+            </div>
+        </div>
+        <div class="row">
             <article>
                 <hr>
                 <p>
@@ -59,77 +68,83 @@
                 <hr>
             </article>
         </div>
-    </div>
-    <div id="slideshow">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
-            <div id="box">HTML / CSS</div>
+        <div id="slideshow">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <div id="box">HTML / CSS</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <div id="box">Javascript</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <div id="box">PC Building</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <div id="box">.net Framework</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
-            <div id="box">Javascript</div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <div id="box">PC Building</div>
+        <div id="image-container">
+            <div class="image-box">
+                <a href="images/index/dbPasswords.png">
+                    <img src="images/index/dbPasswords.png" alt="">
+                </a>
+                <br>
+                <p id="image-text">SQLite Database - Password Data</p>
+            </div>
+            <div class="image-box">
+                <a href="images/index/darkInterface.png">
+                    <img src="images/index/darkInterface.png" alt="">
+                </a>
+                <br>
+                <p id="image-text">Desktop App - Password Manager Dark Mode</p>
+            </div>
+            <div class="image-box">
+                <a href="images/index/dbUsernames.png">
+                    <img src="images/index/dbUsernames.png" alt="">
+                </a>
+                <br>
+                <p id="image-text">SQLite Database - User Data</p>
+            </div>
+            <div class="image-box">
+                <a href="images/index/interface.png">
+                    <img src="images/index/interface.png" alt="">
+                </a>
+                <br>
+                <p id="image-text">Desktop App - Password Manager Interface</p>
+            </div>
+            <div class="image-box">
+                <a href="images/index/interface.png">
+                    <img src="images/index/login.png" alt="">
+                </a>
+                <br>
+                <p id="image-text">Desktop App - Password Manager Login</p>
+            </div>
+            <div class="footer">
+                Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
+                <br><br>Call me at 517-202-6247
+            </div>
         </div>
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <div id="box">.net Framework</div>
+        <div id="center">
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-    <div id="image-container">
-        <div class="image-box">
-            <a href="images/index/dbPasswords.png">
-                <img src="images/index/dbPasswords.png" alt="">
-            </a>
-            <br><p id="image-text">SQLite Database - Password Data</p>
-        </div>
-        <div class="image-box">
-            <a href="images/index/darkInterface.png">
-                <img src="images/index/darkInterface.png" alt="">
-            </a>
-            <br><p id="image-text">Desktop App - Password Manager Dark Mode</p>
-        </div>
-        <div class="image-box">
-             <a href="images/index/dbUsernames.png">
-                <img src="images/index/dbUsernames.png" alt="">
-            </a>
-            <br><p id="image-text">SQLite Database - User Data</p>
-        </div>
-        <div class="image-box">
-             <a href="images/index/interface.png">
-                <img src="images/index/interface.png" alt="">
-            </a>
-            <br><p id="image-text">Desktop App - Password Manager Interface</p>
-        </div>
-        <div class="image-box">
-             <a href="images/index/login.png">
-                <img src="images/index/login.png" alt="">
-            </a>
-            <br><p id="image-text">Desktop App - Password Manager Login</p>
-        </div>
-        <div class="footer">
-            Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
-            <br><br>Call me at 517-202-6247
-        </div>
-    </div>
-    <div id="center">
     </div>
     <script src="javascript/assg2.js"></script>
     <script src="javascript/youtube.js"></script>
     <script src="javascript/slideshow.js"></script>
     <script src="javascript/slideshow2.js"></script>
+    <script src="javascript/topNav.js"></script>
     <script src="javascript/modernizr.2.7.1.js"></script>
     <script src="javascript/geolocation.js"></script>
 </body>
+
 </html>
-           
