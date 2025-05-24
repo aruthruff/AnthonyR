@@ -43,14 +43,3 @@
    }
     
 }
-
-@media screen and (max-width: 425px) {
-
-    #LTop,
-    #Lmiddle,
-    #Rmiddle,
-    #RTop {
-        font-size: 9vw;
-
-    }
-}

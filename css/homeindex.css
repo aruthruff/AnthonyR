@@ -55,52 +55,6 @@ body {
     height: 400px;
 }
 
-
-#Lmiddle {
-    background-color: whitesmoke;
-    height: 100px;
-    width: 50%;
-    color: black;
-    font-size: xxx-large;
-    text-align: center;
-    font-family: fantasy;
-}
-
-
-#Rmiddle {
-    background-color: #383c3780;
-    height: 100px;
-    width: 50%;
-    /*float: right;*/
-    color: white;
-    font-size: xxx-large;
-    text-align: center;
-    font-family: fantasy;
-}
-
-#RTop {
-
-    background-color: whitesmoke;
-    height: 100px;
-    width: 50%;
-    /*float: right;*/
-    color: black;
-    font-size: xxx-large;
-    text-align: center;
-    font-family: fantasy;
-}
-
-#LTop {
-    background-color: #383c3780;
-    height: 100px;
-    width: 50%;
-    color: white;
-    font-size: xxx-large;
-    text-align: center;
-    font-family: fantasy;
-
-}
-
 .colorToggle {
     background-color: #000000f0;
     color: white;
@@ -113,20 +67,39 @@ body {
     #center {
         background-color: #000000f0;
     }
+    .row {
+         background-color: #000000f0;
+    }
+
+    #darkmodeNav{
+        background-color: black;
+    }
+
+    #colorButton, #messageButton, #locButton, #youtubeButton, a.icon {
+        color: white;
+    }
 
 }
 
+#colorButton, #messageButton, #locButton, #youtubeButton {
+        cursor: pointer;
+    }
+
+  
 
 #header {
     background-color: whitesmoke;
     padding: 30px;
     text-align: center;
     font-size: 35px;
+    width: -webkit-fill-available;
 }
 
 .row {
+    background-color: skyblue;
     display: -webkit-flex;
     display: flex;
+    justify-content: center;
 }
 
 #side {
@@ -206,6 +179,13 @@ button {
 
 }
 
+#buttons {
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
 .dropbtn,
 button {
     background-color: #3498DB;
@@ -224,8 +204,8 @@ button:hover,
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+   
+    display: ruby;
 }
 
 
@@ -251,6 +231,7 @@ button:hover,
 }
 
 .show {
-    display: block;
-    justify-self: anchor-center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
 }
