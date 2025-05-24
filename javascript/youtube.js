@@ -1,28 +1,30 @@
-
-
 // button to toggle background color
 function backgroundColorButton() {
   const button = document.getElementById("colorButton");
-  var x = document.getElementById("bodyID");
-  var y = document.body;
+ 
+  let y = document.body;
+ 
   button.addEventListener("click", () => {
     y.classList.toggle("colorToggle");
   })
+   button.addEventListener("click", () => {
+    x.classList.toggle("colorToggle");
+  })
 }
 
-function createAttribute() {
-  const changeClassColor = document.createAttribute("class");
-  changeClassColor.value = "demo";
-  document.getElementsByTagName("h1")[0].setAttributeNode(changeClassColor);
-  const changeBodyColor = document.createAttribute("class");
-  changeBodyColor.value = "bodyDefaultColor";
-  document.getElementById("bodyID").setAttributeNode(changeBodyColor);
-}
 
+
+// function to change one attribut to another
 function createSlidshow() {
-
-document.getElementById("slideshow").setAttribute("id", "slideshow-container");
+  document.getElementById("slideshow").setAttribute("id", "slideshow-container");
 }
+
+
+
+function darkTopNav(){
+  document.getElementById("myTopnav").setAttribute("id", "darkmodeNav");
+}
+
 
 
 // function to display time
@@ -34,6 +36,7 @@ function timeButton() {
   })
 }
 
+
 // function to show latitude and longitude
 function locationButton() {
   const button = document.getElementById("locButton");
@@ -43,31 +46,15 @@ function locationButton() {
   })
 }
 
+
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
 
-window.onclick = function (event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
+backgroundColorButton();
 createSlidshow();
-//Call Function
-timeButton()
-//Call Function
-backgroundColorButton()
-//Call Function
-createAttribute()
-//Call Function
-locationButton()
-
+darkTopNav();
+timeButton();
+locationButton();
