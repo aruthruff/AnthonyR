@@ -52,6 +52,15 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function countVisits() {
+  let visitCount = parseInt(localStorage.getItem('visitCount')) || 0;
+  visitCount++;
+  localStorage.setItem('visitCount', visitCount);
+  document.getElementById('visitCounter').textContent = visitCount;
+}
+
+countVisits();
+
 
 backgroundColorButton();
 createSlidshow();
