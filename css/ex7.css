@@ -12,7 +12,7 @@ body {
 #container {
   position: relative;
   left: 170px;
-
+  max-width: fit-content;
 }
 
 img {
