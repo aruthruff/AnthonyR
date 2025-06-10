@@ -307,6 +307,7 @@ a {
     height: 100px;
     color: white;
     text-align: center;
+    max-width: -webkit-fill-available;
 }
 
 .head-margin {
@@ -418,6 +419,7 @@ li {
         height: 220px;
         color: white;
         text-align: center;
+        max-width: -webkit-fill-available;
     }
 
     #page {
@@ -429,6 +431,18 @@ li {
         top: 252px;
         max-width: 425px;
     }
+
+    .about-section {
+    display: flex;
+    position: relative;
+    top: 195px;
+    max-width: 635px;
+    left: auto;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 
 }
 
