@@ -1,13 +1,13 @@
 // button to toggle background color
 function backgroundColorButton() {
   const button = document.getElementById("colorButton");
- 
+
   let y = document.body;
- 
+
   button.addEventListener("click", () => {
     y.classList.toggle("colorToggle");
   })
-   button.addEventListener("click", () => {
+  button.addEventListener("click", () => {
     x.classList.toggle("colorToggle");
   })
 }
@@ -21,7 +21,7 @@ function createSlidshow() {
 
 
 
-function darkTopNav(){
+function darkTopNav() {
   document.getElementById("myTopnav").setAttribute("id", "darkmodeNav");
 }
 
@@ -52,10 +52,6 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
 function getCookie(name) {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
@@ -79,8 +75,14 @@ function countVisits() {
   document.getElementById('visitCounter').textContent = visitCount;
 }
 
-countVisits();
+const scrollableElement = document.querySelector('#image-container');
 
+scrollableElement.addEventListener('wheel', (event) => {
+  event.preventDefault();
+  scrollableElement.scrollLeft += event.deltaY; // Or event.deltaX if supported
+});
+
+countVisits();
 
 backgroundColorButton();
 createSlidshow();
