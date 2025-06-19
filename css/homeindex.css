@@ -1,3 +1,4 @@
+
 body {
     background-color: skyblue;
 
@@ -16,26 +17,27 @@ body {
 
 #bodyID {
 
-    display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
 }
 
 #image-container {
-    
     display: flex;
     position: relative;
-    margin: auto;
-    flex-direction: column;
+    margin: 50px 0 77px 0;
+    overflow-y:hidden;
+    overflow-x:scroll;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
-   
+
 
 .image-box {
     background-color: gray;
     padding: 10px;
-    margin: 40px 15px 40px 15px;
+    margin: 30px 100px 30px 100px;
     border: black;
     border-style: double;
     border-radius: 10px;
@@ -49,7 +51,7 @@ body {
 #center {
     display: flex;
 
-    flex-direction: row;
+    flex-direction: column;
     align-content: space-evenly;
     background-color: skyblue;
     height: 400px;
