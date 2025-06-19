@@ -37,14 +37,13 @@
             </div>
             <a id="messageButton">Click for Time</a>
             <a id="locButton">Show/Hide Location</a>
-            <a id="youtubeButton" onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My YouTube
+            <a id="youtubeButton" onclick="location='https://www.youtube.com/channel/UC9jGujlOqkT3j_jVN2iMkCw'">My
+                YouTube
                 Channel</a>
             <a id="colorButton">Dark/Light Mode</a>
             <a href="javascript:void(0);" class="icon" onclick="topNav()">
                 <i class="fa fa-bars"></i>
             </a>
-
-
         </div>
         <div id="header">
             <div id="text">
@@ -54,53 +53,58 @@
                 <h1>Anthony Ruthruff</h1>
             </div>
         </div>
-        <div class="row">
-            <article>
-                <hr>
-                <p>
-                    Greetings, my name is Anthony Ruthruff.
-                    This page is intended as a display of my web development potential.
-                    I’m a recent graduate of Lansing Community College. I’ve graduated with a cumulative GPA of 3.9
-                    with
-                    an associate’s in business for Computer Programming.
-                    I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#,
-                    etc;
-                </p>
-                <hr>
-            </article>
+        <div id="center">
+           
+            <div class="row">
+               
+                <article>
+                    <hr>
+                    <p>
+                        Greetings, my name is Anthony Ruthruff.
+                        This page is intended as a display of my web development potential.
+                        I’m a recent graduate of Lansing Community College. I’ve graduated with a cumulative GPA of 3.9
+                        with
+                        an associate’s in business for Computer Programming.
+                        I've learned several programming languages, including HTML/CSS, Javascript, Python, Java, C#,
+                        etc;
+                    </p>
+                    <hr>
+                </article>
+            </div>
+            <div id="slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <div id="box">HTML / CSS</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <div id="box">Javascript</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <div id="box">PC Building</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <div id="box">.net Framework</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <div id="box">SQL / Databases</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            
         </div>
-        <div id="slideshow">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 5</div>
-                <div id="box">HTML / CSS</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 5</div>
-                <div id="box">Javascript</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 5</div>
-                <div id="box">PC Building</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 5</div>
-                <div id="box">.net Framework</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 5</div>
-                <div id="box">SQL / Databases</div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
-              <div id="image-container">
-                <div class="image-box">
+        <div id="image-container">
+            <div class="image-box">
                 <a href="https://youtu.be/uP5ROCVLptY">
                     <img src="images/index/PasswordManagerYT_RESIZE.png" alt="">
                 </a>
@@ -142,17 +146,17 @@
                 <br>
                 <p id="image-text">Desktop App - Password Manager Login</p>
             </div>
-            <div class="footer">
-                Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
-                <br><br>Call me at 517-202-6247
-            </div>
         </div>
-        <div id="center">
+
+        <div class="footer">
+            Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
+            <br><br>Call me at 517-202-6247
         </div>
     </div>
     <script src="javascript/assg2.js"></script>
     <script src="javascript/youtube.js"></script>
     <script src="javascript/slideshow.js"></script>
+    <script src="javascript/slideshow2.js"></script>
     <script src="javascript/topNav.js"></script>
     <script src="javascript/modernizr.2.7.1.js"></script>
     <script src="javascript/geolocation.js"></script>
