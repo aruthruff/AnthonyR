@@ -28,6 +28,7 @@
 
    #slideshow-container{
     max-width: 100%;
+    width: -webkit-fill-available;
    }
 
     #image-container{
