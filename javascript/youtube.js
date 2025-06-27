@@ -75,12 +75,7 @@ function countVisits() {
   document.getElementById('visitCounter').textContent = visitCount;
 }
 
-const scrollableElement = document.querySelector('#image-container');
 
-scrollableElement.addEventListener('wheel', (event) => {
-  event.preventDefault();
-  scrollableElement.scrollLeft += event.deltaY; // Or event.deltaX if supported
-});
 
 countVisits();
 
@@ -89,3 +84,7 @@ createSlidshow();
 darkTopNav();
 timeButton();
 locationButton();
+
+
+
+
