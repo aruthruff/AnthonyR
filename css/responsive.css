@@ -28,7 +28,6 @@
 
    #slideshow-container{
     max-width: 100%;
-    width: 100%;
    }
 
     #image-container{
@@ -53,12 +52,12 @@
     margin: 100px 0 100px 0;
     flex-direction: column;
     align-items: center;
-  
+    width: 100%;
 }
 .image-box {
     background-color: gray;
     padding: 10px;
-    margin: 40px 15px 40px 15px;
+    margin: 100px 15px 100px 15px;
     border: black;
     border-style: double;
     border-radius: 10px;

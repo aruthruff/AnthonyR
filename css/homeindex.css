@@ -34,15 +34,15 @@ a.weather {
     overflow-y: hidden;
     overflow-x: scroll;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
 }
-
+   
 
 .image-box {
     background-color: gray;
     padding: 10px;
-    margin: 30px 100px 30px 100px;
+    margin: 100px 100px 200px 100px;
     border: black;
     border-style: double;
     border-radius: 10px;
@@ -257,3 +257,17 @@ button:hover,
 #visitCounter {
     display: none;
 }
+
+
+
+@keyframes bookanim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.book.inview {
+  animation: bookanim 3s ease;
+  
+}
+
+
