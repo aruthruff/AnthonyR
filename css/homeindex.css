@@ -27,6 +27,16 @@ a.weather {
     align-items: center;
 }
 
+#intro{
+    font-size: 1rem;
+    transition: all 1s ease-in-out;
+}
+
+#intro.inview{
+    font-size: 3rem;
+
+}
+
 #image-container {
     display: flex;
     position: relative;
@@ -260,13 +270,14 @@ button:hover,
 
 
 
-@keyframes bookanim {
+@keyframes anim {
     from {opacity: 0;}
     to {opacity: 1;}
 }
 
-.book.inview {
-  animation: bookanim 3s ease;
+.image-box.inview {
+   
+  animation: anim 3s ease;
   
 }
 
