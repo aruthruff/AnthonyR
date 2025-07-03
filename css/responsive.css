@@ -50,6 +50,7 @@
     #image-container,
     .image-container-color-dark,
     .image-container-color-light {
+    background-color: skyblue;
     display: flex;
     position: relative;
     margin: 100px 0 100px 0;
