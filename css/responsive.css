@@ -1,4 +1,5 @@
-@media screen and (max-width: 890px) {
+
+@media screen and (max-width: 1530px) {
 
     nav,
     article {
@@ -45,9 +46,10 @@
     
 }
 
-@media screen and (max-width: 890px) {
-    #image-container {
-    
+@media screen and (max-width: 1200px) {
+    #image-container,
+    .image-container-color-dark,
+    .image-container-color-light {
     display: flex;
     position: relative;
     margin: 100px 0 100px 0;
