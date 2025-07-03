@@ -78,8 +78,10 @@ a.weather {
     .footer {
         background-color: #100f12;
     }
+   
     #image-container,
     .image-container-color-light,
+    .image-container-color-dark,
     #center {
         background-color: #000000f0;
     }
