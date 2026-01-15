@@ -117,7 +117,7 @@ a.weather {
 
 #header {
     background-color: whitesmoke;
-    padding: 30px;
+    padding: 60px 30px 30px 30px;
     text-align: center;
     font-size: 35px;
     width: -webkit-fill-available;
@@ -155,7 +155,7 @@ a.weather {
     max-width: 100%;
     width: -webkit-fill-available;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     text-align: center;
     bottom: 0;
     position: fixed;
@@ -280,6 +280,7 @@ button:hover,
   animation: anim 3s ease;
   
 }
+
 
 
 
