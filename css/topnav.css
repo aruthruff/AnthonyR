@@ -4,7 +4,7 @@
   overflow: hidden;
   width: -webkit-fill-available;
   position: fixed;
-  top: 0;
+  top: 1%;
   margin: 10px;
   z-index: 100;
 }
@@ -72,3 +72,4 @@
   }
 
 }
+
