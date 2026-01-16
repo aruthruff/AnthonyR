@@ -57,7 +57,7 @@
 @media screen and (max-width: 1040px) {
   .topnav.responsive {
     position: fixed;
-    background-color: #d9e3ff;
+    
   
   }
   .topnav.responsive a.icon {
@@ -72,5 +72,6 @@
   }
 
 }
+
 
 
