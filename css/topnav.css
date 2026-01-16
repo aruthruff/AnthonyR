@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #d9e3ff;
+  background-color: rgb(86 20 150 / var(--tw-bg-opacity, 1));
   overflow: hidden;
   width: -webkit-fill-available;
   position: fixed;
@@ -72,4 +72,5 @@
   }
 
 }
+
 
