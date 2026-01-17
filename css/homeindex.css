@@ -159,12 +159,10 @@ a.weather {
 .footer {
     max-width: 100%;
     width: -webkit-fill-available;
-    background-color: rgb(86 20 150 / var(--tw-bg-opacity, 1));
-    padding: 10px 10px 30px 10px;
+    background-color: gray;
+    padding: 50px 0px 50px 0px;
     text-align: center;
     bottom: 0;
-    position: fixed;
-
 }
 
 
@@ -285,6 +283,7 @@ button:hover,
   animation: anim 3s ease;
   
 }
+
 
 
 
