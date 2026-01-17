@@ -65,7 +65,17 @@
     border: black;
    
 }
+  .topnav {
+  background-color: gray;
+  overflow: hidden;
+  width: -webkit-fill-available;
+  position: fixed;
+  top: 1%;
+  margin: 10px;
+  z-index: 100;
+}  
     
 }
+
 
 
