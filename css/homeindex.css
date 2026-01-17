@@ -122,7 +122,6 @@ a.weather {
 
 #header {
     background-color: whitesmoke;
-    background-image: radial-gradient(63.44% 82.03% at 55.58% -15.63%, #96f, #9966ff3d 53.72%, #96f0), linear-gradient(58.76deg, #b900abcc 1.86%, #b900ab00 67.86%), linear-gradient(56.79deg, #561496 33.79%, #63c0 58.19%), linear-gradient(141.57deg, #561496d9 19.08%, #63c0 60.35%);
     padding: 60px 30px 30px 30px;
     text-align: center;
     font-size: 35px;
@@ -286,6 +285,7 @@ button:hover,
   animation: anim 3s ease;
   
 }
+
 
 
 
