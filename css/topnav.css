@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: gray;
+  
   overflow: hidden;
   width: -webkit-fill-available;
  
@@ -31,7 +31,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a#active {
-  background-color: gray;
+  background-color: darkgrey;
  
 }
 
@@ -73,6 +73,7 @@
   }
 
 }
+
 
 
 
