@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tonys Space</title>
 </head>
-
 <body>
     <div id="loc"></div>
     <div id="bodyID">
@@ -23,8 +21,6 @@
                 <div id="myDropdown" class="dropdown-content">
                     <a href="https://youtu.be/uP5ROCVLptY">Password Manager</a>
                     <a href="project.html">LCC Project</a>
-                    
-                   
                     <a href="weather/build/index.html">Weather App</a>
                 </div>
             </div>
@@ -41,7 +37,6 @@
         </div>
         <div id="header">
             <div id="text">
-
                 <div id="intro" class="animate"> </div>
                 <span id="visitCounter">0</span>
                 <h3>Welcome to the Homepage for</h3>
@@ -49,13 +44,10 @@
             </div>
         </div>
         <div id="center">
-
             <div class="row">
-
                 <article>
                     <hr>
                     <p>
-                        
                         This page is intended as a display of my web development potential.
                         I’m a recent graduate of Lansing Community College. I’ve graduated summa cum laude
                         with
@@ -69,38 +61,60 @@
             <div id="slideshow">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 5</div>
-                    <div id="box">HTML / CSS</div>
+                    <div id="box">
+                        <p id="slideText">HTML / CSS</p>
+                    </div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 5</div>
-                    <div id="box">Javascript</div>
+                    <div id="box">
+                        <p id="slideText">Javascript</p>
+                    </div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 5</div>
-                    <div id="box">PC Building</div>
+                    <div id="box">
+                        <p id="slideText">PC Building</p>
+                    </div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 5</div>
-                    <div id="box">.net Framework</div>
+                    <div id="box">
+                        <p id="slideText">.net Framework</p>
+                    </div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">5 / 5</div>
-                    <div id="box">SQL / Databases</div>
+                    <div id="box">
+                        <p id="slideText">SQL / Databases</p>
+                    </div>
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <div style="text-align:center">
+            <div id="dotslide" style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
             </div>
-
         </div>
+        <svg style="background-color:#D9EEE1;" width="100%" height="72" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path id="wavepath" d="M0,0  L100, 0C35,150 35,0 0,100z" fill="#282A35"></path>
+        </svg>
         <div id="image-container">
-            <div class="image-container-color-dark animate">
+            <div class="image-container-color-white animate">
+                <div class="image-box animate">
+                    <a href="images/index/dbPasswords.png">
+                        <img src="images/index/dbPasswords.png" alt="">
+                    </a>
+                    <br>
+                    <p id="image-text">SQLite Database - Password Data</p>
+                </div>
+            </div>
+            <div class="image-container-color-blue animate">
                 <div class="image-box animate">
                     <a href="https://youtu.be/uP5ROCVLptY">
                         <img src="images/index/PasswordManagerYT.png" alt="">
@@ -109,48 +123,25 @@
                     <p id="image-text">Check out my Password Manager YouTube video</p>
                 </div>
             </div>
-
-            <div class="image-container-color-light animate">
+            <div class="image-container-color-yellow animate">
                 <div class="image-box animate">
-                    <a href="images/index/dbPasswords_view.png">
-                        <img src="images/index/dbPasswords.png" alt="">
-                    </a>
-                    <br>
-                    <p id="image-text">SQLite Database - Password Data</p>
-                </div>
-            </div>
-
-            <div class="image-container-color-light animate">
-                <div class="image-box animate">
-                    <a href="images/index/DarkMode_view.png">
+                    <a href="images/index/DarkMode.png">
                         <img src="images/index/DarkMode.png" alt="">
                     </a>
                     <br>
                     <p id="image-text">Desktop App - Password Manager Dark Mode</p>
                 </div>
             </div>
-
-            <div class="image-container-color-dark animate">
+            <div class="image-container-color-lightblue animate">
                 <div class="image-box animate">
-                    <a href="images/index/dbUsernames_view.png">
+                    <a href="images/index/dbUsernames.png">
                         <img src="images/index/dbUsernames.png" alt="">
                     </a>
                     <br>
                     <p id="image-text">SQLite Database - User Data</p>
                 </div>
             </div>
-
-            <div class="image-container-color-dark">
-                <div class="image-box animate">
-                    <a href="images/index/interface_view.png">
-                        <img src="images/index/interface.png" alt="">
-                    </a>
-                    <br>
-                    <p id="image-text">Desktop App - Password Manager Interface</p>
-                </div>
-            </div>
-
-            <div class="image-container-color-light">
+            <div class="image-container-color-blue animate">
                 <div class="image-box animate">
                     <a href="images/index/login_view.png">
                         <img src="images/index/login.png" alt="">
@@ -159,11 +150,19 @@
                     <p id="image-text">Desktop App - Password Manager Login</p>
                 </div>
             </div>
+            <div class="image-container-color-yellow animate">
+                <div class="image-box animate">
+                    <a href="images/index/interface_view.png">
+                        <img src="images/index/interface.png" alt="">
+                    </a>
+                    <br>
+                    <p id="image-text">Desktop App - Password Manager Interface</p>
+                </div>
+            </div>
         </div>
-
         <div class="footer">
-            Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
-            <br><br>Call me at 517-202-6247
+            <p id="footText">Email me at <a href="mailto:anthonyruthruff@gmail.com">anthonyruthruff@gmail.com</a>
+            <br><br>Call me at 517-202-6247</p>
         </div>
     </div>
     <script src="javascript/assg2.js"></script>
@@ -175,9 +174,4 @@
     <script src="javascript/modernizr.2.7.1.js"></script>
     <script src="javascript/geolocation.js"></script>
 </body>
-
 </html>
-
-
-
-
