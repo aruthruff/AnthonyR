@@ -1,12 +1,9 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  
-  overflow: hidden;
-  width: -webkit-fill-available;
- 
-  top: 1%;
- 
-
+    overflow: hidden;
+    justify-self: anchor-center;
+    background-color: #D9EEE1;;
+   
 }
 
 /* Style the links inside the navigation bar */
@@ -31,7 +28,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a#active {
-  background-color: darkgrey;
+  background-color: #FFF4A3!important;
  
 }
 
