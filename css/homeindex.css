@@ -44,7 +44,9 @@ a.weather {
 #dotslide{
     line-height: 3.5;
 }
-#dotslide,
+#dotslide{
+    background-color: #FFF4A3!important;
+}
 .image-container-color-white {
     background-color: #D9EEE1;
 }

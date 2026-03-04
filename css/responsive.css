@@ -22,11 +22,7 @@
         display: grid;
     }
 
-    #box {
-        font-size: xx-large;
-        padding: 75px;
-    }
-
+ 
    #slideshow-container{
     width: -webkit-fill-available;
    }
@@ -46,7 +42,7 @@
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     #image-container,
     .image-container-color-dark,
     .image-container-color-light {
