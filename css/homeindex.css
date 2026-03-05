@@ -66,19 +66,19 @@ a.weather {
     height: 400px;
 }
 .colorToggle {
-    background-color: #000000f0;
     color: white;
-    #header,
-    .footer {
-        background-color: #100f12;
+
+    #wavepath{
+        fill: rgb(13,23,33)!important;
     }
     #image-container,
-    #center {
-        background-color: #100f12;
+    #center,
+    #header,
+    .footer,
+    .row  {
+        background-color: rgb(13,23,33)!important;
     }
-    .row {
-        background-color: #100f12;
-    }
+  
     #darkmodeNav {
         background-color: black;
     }

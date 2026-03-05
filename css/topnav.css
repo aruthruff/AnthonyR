@@ -1,8 +1,10 @@
 /* Add a black background color to the top navigation */
 .topnav {
+    position: fixed;
     overflow: hidden;
     justify-self: anchor-center;
-    background-color: #D9EEE1;;
+    background-color: #D9EEE1;
+    z-index: 1;
    
 }
 
@@ -44,6 +46,12 @@
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .topnav{
+    width: 75%;
+    top: 1%;
+    margin: 10px;
   }
 
  
