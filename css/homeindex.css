@@ -192,8 +192,20 @@ h3 {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
+a{
+    text-decoration: none;
+    color: #DDD;
+}
+a:hover{
+    text-decoration: underline;
+}
+#footTextHead{
+    color: white;
+    font-size: 18px;
+}
 #footText{
     color: white;
+    text-decoration: none;
 }
 h2 {
     text-align: center;
