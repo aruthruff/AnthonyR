@@ -67,13 +67,13 @@
     max-width: 100%;
     width: -webkit-fill-available;
     background-color: #FFF4A3;
-    padding: 25px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
     bottom: 0;
     position: fixed;
 }   
  #image-container{
-    margin: 150px 0px 150px 0px;
+    margin: 180px 0px 130px 0px;
  }
  #slideshow-container{
     max-width: 100%;

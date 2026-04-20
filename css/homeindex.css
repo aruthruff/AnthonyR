@@ -38,7 +38,7 @@ a.weather {
 #image-container {
     display: grid;
     position: relative;
-    margin: 60px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 .image-box {
     background-color: #E7E9EB;
